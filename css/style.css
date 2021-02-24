@@ -1,0 +1,187 @@
+/*Colors*/
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #f3f3f3;
+}
+
+.container-fluid {
+  max-width: 1700px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.radius {
+  border-radius: 2em;
+}
+
+h4 {
+  color: #fb4c47;
+}
+
+h4, h1, h2, h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  color: #4B4F51;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #fb4c47;
+  border: none;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  border-radius: 2em;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: #D9423D;
+}
+
+.navigation {
+  margin: 0px 0px 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation .nav-list .nav-item {
+  display: inline-block;
+  list-style: none;
+  margin: 8px 10px;
+}
+
+.navigation .nav-list .nav-item a {
+  text-decoration: none;
+  color: #035755;
+  font-weight: 600;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.navigation .nav-list .nav-item a:hover {
+  color: #fb4c47;
+}
+
+.first-block, .second-block {
+  background-color: #FFFFFF;
+  padding: 1em 0em 0em 2em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 2fr;
+      grid-template-columns: 1.5fr 2fr;
+}
+
+.first-block .image img, .second-block .image img {
+  max-width: 100%;
+}
+
+.first-block button, .second-block button {
+  margin-top: 110px;
+}
+
+.first-block {
+  margin-bottom: 50px;
+}
+
+.first-block .info {
+  color: #035755;
+}
+
+.second-block .info {
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
+.second-block h2 {
+  color: #035755;
+}
+
+.second-block h2:nth-child(1) {
+  color: #fb4c47;
+}
+
+.fifth-block img {
+  max-width: 100%;
+}
+
+.h-spacing {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.h-spacing h2 {
+  color: #fb4c47;
+  line-height: 8px;
+}
+
+.h-spacing h1 {
+  color: #035755;
+}
+
+.cards {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  gap: 40px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.cards .card {
+  background-color: #FFFFFF;
+  text-align: center;
+  border: none;
+  border-bottom: solid 5px #fb4c47;
+}
+
+.cards .card .image {
+  margin-top: 20px;
+  height: 170px;
+}
+
+.cards .card .image img {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards .text {
+  padding: 0 25px;
+}
+
+.cards-two .card h3 {
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
